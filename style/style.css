@@ -4,7 +4,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
 }
 
 .top {
@@ -25,7 +29,7 @@ body {
 }
 
 .logo img {
-    width: 50px;
+    width: 50%;
     height: 50px;
 }
 
@@ -74,14 +78,15 @@ body {
 }
 
 .hero img {
-    width: 700px;
-    height: 250px;
+    width: 50%;
+    height: 280px;
     object-fit: cover;
     align-self: center;
 }
 
 .hero .container {
-    height: 250px;
+    height: 280px;
+    width: 50%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -89,8 +94,7 @@ body {
     justify-content: space-between;
 }
 
-button,
-.caller {
+button {
     background-color: #3882f6;
 }
 
@@ -101,4 +105,114 @@ button,
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
+}
+
+.info {
+    margin: 0 400px 100px 400px;
+    padding: 0;
+}
+
+.info h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .container {
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+figcaption {
+    width: 180px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.qt-box {
+    margin: 100px 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.qt-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer p {
+    color: #f9faf8;
+}
+
+.caller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caller-box {
+    margin: 50px 400px;
+    padding: 50px 250px;
+    gap: 50px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caller-text {
+    margin: 0;
+    padding: 0;
+}
+
+.caller-box button {
+    font-size: 22px;
+    color: #e5e7eb;
+    padding: 10px 25px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    flex-wrap: nowrap;
 }
