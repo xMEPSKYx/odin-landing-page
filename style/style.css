@@ -181,7 +181,7 @@ figcaption {
 .caller-box {
     margin: 50px 250px;
     padding: 40px 130px;
-    gap: 200px;
+    gap: 175px;
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -193,8 +193,10 @@ figcaption {
 .caller-text {
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 5px;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
 }
@@ -214,7 +216,7 @@ figcaption {
     align-self: center;
     font-size: 22px;
     color: #f9faf8;
-    padding: 10px 25px;
+    padding: 10px 33px;
     border: 2px solid #f9faf8;
     border-radius: 5px;
     flex-wrap: nowrap;
